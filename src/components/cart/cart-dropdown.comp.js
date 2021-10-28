@@ -11,7 +11,7 @@ import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { CartContainer, EmptyMsg, CartContent } from "./cart-dropdown.styled";
 
 const CartDropdown = ({ cartItems, history, toggleCartHidden }) => {
-  console.log('cartItems :>> ', cartItems);
+  // console.log('cartItems :>> ', cartItems);
   return (
     <CartContainer>
       <CartContent>

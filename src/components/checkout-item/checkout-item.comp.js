@@ -17,7 +17,7 @@ import {
 
 const CheckoutComp = ({ cartItem, clearItem, addItem, removeItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
-  console.log("cartItem: ", cartItem);
+  // console.log("cartItem: ", cartItem);
   return (
     <CheckoutItem>
       <ImageContainer>
