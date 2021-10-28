@@ -16,7 +16,7 @@ import {default as CartIcon} from "../../components/cart-icon/cart-icon.containe
 const Header = ({ hidden }) => {
   return (
     <HeaderContainer>
-      <LogoContainer to="/">
+      <LogoContainer id="icon"  to="/">
         <Logo />
       </LogoContainer>
       <OptionsContainer>

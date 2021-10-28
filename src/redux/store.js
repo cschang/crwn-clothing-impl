@@ -8,7 +8,6 @@ import rootReducer from "./root-reducer";
 const middlewares = [
   // sagaMiddleware,
   // thunk
-  logger
 ];
 //check NODE_ENV by mouse,
 //當開發環境為development時我們使用logger

@@ -8,14 +8,14 @@ import CheckoutPage from "./pages/checkout/checkout.comp"
 import { Switch,Route } from 'react-router-dom';
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Switch>
         <Route path="/" exact component={HomeComp} />
         <Route path="/shop" component={ShopComp} />
         <Route exact path="/checkout" component={CheckoutPage} />
       </Switch>
-    </>
+    </div>
   );
 }
 
